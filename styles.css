@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el encabezado superior */
+.encabezado-superior{
+    display: flex;
+    /* 80 */
+  
+    height:80px;
+    background-color: rgb(52, 50, 50);
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.logo{
+    display: flex;
+    /* top: 100px; */
+    align-items: center;
+   
+}
+/* Estilos para el menú de navegación */
+.lista-elementos ul {
+    list-style: none; /* Quita los puntos/bolitas de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.lista-elementos li {
+    margin: 5PX 15px; /* Espacio horizontal entre elementos del menú */
+    display: inline-block;
+    align-items: start;
+    
+}
+
+.lista-elementos a {
+    text-decoration: none; /* Quita subrayado de los enlaces */
+    color: rgb(105, 104, 104); /* Cambia el color de los enlaces */
+    font-size: 15px; /* Ajusta el tamaño de fuente según sea necesario */
+    transition: color 0.3s;  /*transición de color suave */
+    
+}
+/* Cambia el color del enlace cuando pasas el cursor sobre él */
+.lista-elementos a:hover {
+    color: #fff; /* Color de enlaces al pasar el cursor (blanco) */
+}
+/* Cambia el color solo para el enlace con la clase "comprar-tickets" */
+.lista-elementos a.comprar-tickets {
+    color: green; /* Color verde para "Comprar tickets" */
+}
+.lista-elementos a.conferencia{
+    color: white;
+}
+
+ /* Estilos para el contenedor principal */
+.contenedor{
+    
+    /* min-height: 10VH;
+    
+    display: flex;
+    flex-direction: column; */
+    background-color: rgb(254, 253, 255); 
+    color: aliceblue;
+    
+    
+}
+/* Estilo para la sección de información */
+.info {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 1%; 
+    bottom: 25;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    color: #fff; /* Color de texto blanco */
+    z-index: 1; /* Asegura que el texto esté encima del carrusel */
+    padding:20px; /* Espaciado interior para el texto */
+}
+
+/* Estilo para el contenido dentro de la sección de información */
+.info h1,
+.info p {
+    margin: 0;
+}
+.info-oradores {
+    text-align: center;
+}
+.footer ul{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(0, 62, 97);
+   list-style: none;
+   margin: 0;
+  
+    
+} 
+.footer li a{
+    text-decoration: none; /* Quita subrayado de los enlaces */
+    color: #fff;
+   
+}
+ 
+
