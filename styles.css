@@ -67,10 +67,11 @@
     
     
 }
+
 /* Estilo para la sección de información */
 .info {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     right: 1%; 
     bottom: 25;
